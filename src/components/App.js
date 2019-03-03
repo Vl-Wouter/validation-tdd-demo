@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import EmailField from './EmailField'
-import NotEmptyField from './NotEmptyField'
+import EmailField from "./EmailField";
+import NotEmptyField from "./NotEmptyField";
 
-import '../style.css'
+import "../style.css";
 
 class App extends Component {
   render() {
