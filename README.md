@@ -2,6 +2,9 @@
 
 This is a sample project that is used during workshops to demonstrate Test Driven Development. The app started from the create-react-app template and has a few basic npm dependencies for testing.
 
+## CI status
+[![Build Status](https://travis-ci.org/qbraet/validation-tdd-demo.svg?branch=develop)](https://travis-ci.org/qbraet/validation-tdd-demo)
+
 ## Prerequisites
 - Node 10.15 or higher
 - npm 6 or higher
