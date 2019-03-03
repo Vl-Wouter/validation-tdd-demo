@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Field, reduxForm } from 'redux-form';
 
-class NotEmptyForm extends Component {
+class NotEmptyField extends Component {
     renderField(field) {
         return (
           <div className="form-group" >
@@ -36,4 +36,4 @@ class NotEmptyForm extends Component {
 }
 export default reduxForm({
     form: 'NotEmptyForm'
-  })(NotEmptyForm);
+  })(NotEmptyField);
