@@ -1,4 +1,4 @@
-import { required, validEmail } from "../validation";
+import { required } from "../validation";
 
 test("empty field", () => {
   expect(required("")).toBe("Required");
